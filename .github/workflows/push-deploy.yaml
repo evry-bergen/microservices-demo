@@ -22,6 +22,7 @@ on:
 jobs:
   push-deploy:
 #    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Push latest images to GCR
