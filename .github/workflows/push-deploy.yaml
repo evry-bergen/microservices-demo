@@ -18,9 +18,10 @@ on:
     # run on pushes to master
     branches:
       - master
+      - yellow-marlin
 jobs:
   push-deploy:
-    runs-on: self-hosted
+#    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v2
     - name: Push latest images to GCR
