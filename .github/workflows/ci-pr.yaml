@@ -18,6 +18,7 @@ on:
     # run on pull requests targeting master
     branches:
       - master
+      - yellow-marlin
 jobs:
   code-tests:
     runs-on: self-hosted
